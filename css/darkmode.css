@@ -1,14 +1,17 @@
 /* Dark theme */
-header .theme .gg-sun{
+
+header .theme .gg-sun {
     display: none;
 }
-header .theme .gg-moon{
+
+header .theme .gg-moon {
     display: block;
 }
 
-.dark body{
+.dark body {
     background: rgba(34, 34, 34, 1);
 }
+
 .dark header {
     background-color: #151515;
 }
@@ -30,15 +33,15 @@ header .theme .gg-moon{
     display: block;
 }
 
-.dark .about-us{
+.dark .about-us {
     background: #151515;
 }
 
-.dark .about-us .h-title{
+.dark .about-us .h-title {
     color: #ddd;
 }
 
-.dark .about-us .read{
+.dark .about-us .read {
     color: #ddd;
 }
 
@@ -58,11 +61,11 @@ header .theme .gg-moon{
     background-color: rgba(21, 21, 21, 1);
 }
 
-.dark .features .features-item:hover{
+.dark .features .features-item:hover {
     background: #222222;
 }
 
-.dark .features .features-item .h-title a:hover{
+.dark .features .features-item .h-title a:hover {
     color: #189A46;
 }
 
@@ -74,19 +77,59 @@ header .theme .gg-moon{
     color: #ddd;
 }
 
-.dark .choose{
+.dark .choose {
     background: #151515;
 }
 
-.dark .choose .choose-text .h-title{
+.dark .choose .choose-text .h-title {
     color: #ddd;
 }
 
-.dark .choose .choose-text li{
+.dark .choose .choose-text li {
     color: #ddd;
 }
 
-.dark .choose .choose-text i{
+.dark .choose .choose-text i {
     color: #189A46;
     background: #222222;
 }
+
+.dark .hny-title {
+    color: #ddd;
+}
+
+
+/* pricing */
+
+.dark #pricing {
+    background: rgba(34, 34, 34, 1);
+}
+
+.dark #pricing .pricing-gd-left {
+    background: #151515;
+}
+
+.dark #pricing .pricing-gd-left .one-light {
+    color: #ddd;
+}
+
+.dark #pricing .pricing-gd-left p {
+    color: #afafaf;
+}
+
+
+/* end pricing */
+
+
+/* video about */
+
+.dark #about {
+    background-color: #151515;
+}
+
+.dark #about p {
+    color: #afafaf;
+}
+
+
+/* end video about */
