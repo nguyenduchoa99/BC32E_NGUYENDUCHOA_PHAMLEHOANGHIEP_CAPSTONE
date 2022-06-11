@@ -16,12 +16,312 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://css.gg/moon.css' rel='stylesheet'>
+    <link href='https://css.gg/sun.css' rel='stylesheet'>
     <!-- CSS -->
+    <link rel="stylesheet" href="./css/darkmode.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body id="myBody">
 
+    <header id="site-header" class="fixed-top nav-fixed">
+        <div class="container">
+            <nav class="navbar navbar-expand-md stroke navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">Pooch Care</a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler bg-gradient collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Blog<i class="fa fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                <a class="dropdown-item" href="#">Blog Posts</a>
+                                <a class="dropdown-item" href="#">Blog single</a>
+                                <a class="dropdown-item" href="#">Landing Page</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="theme">
+                    <div class="theme-switch">
+                        <div class="mode-container">
+                            <button class="btn" id="switchButton">
+                                <i class="gg-moon"></i>
+                                <i class="gg-sun"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="carousel">
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-view active">
+                    <div class="overlay"></div>
+                    <div class="carousel-1">
+                        <div class="container">
+                            <div class="carousel-bg text-left">
+                                <h5>Quality Things for Loving Pets</h5>
+                                <p>Keeps your Pet Smiling</p>
+
+                                <a class="btn btn-white mt-sm-5 mt-4 mr-2" href="#"> Read More</a>
+                                <a class="btn btn-style mt-sm-5 mt-4" href="#"> Contact Us</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-view ">
+                    <div class="overlay"></div>
+                    <div class="carousel-1">
+                        <div class="container">
+                            <div class="carousel-bg ml-lg-auto text-left">
+                                <h5>Delivering happiness for Pets</h5>
+                                <p>For the love of pets</p>
+
+                                <a class="btn btn-white mt-sm-5 mt-4 mr-2" href="#"> Read More</a>
+                                <a class="btn btn-style mt-sm-5 mt-4" href="#"> Contact Us</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-view">
+                    <div class="overlay"></div>
+                    <div class="carousel-1">
+                        <div class="container">
+                            <div class="carousel-bg text-left">
+                                <h5>Quality Things for Loving Pets</h5>
+                                <p>Keeps your Pet Smiling</p>
+
+                                <a class="btn btn-white mt-sm-5 mt-4 mr-2" href="#"> Read More</a>
+                                <a class="btn btn-style mt-sm-5 mt-4" href="#"> Contact Us</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-view">
+                    <div class="overlay"></div>
+                    <div class="carousel-1">
+                        <div class="container">
+                            <div class="carousel-bg ml-lg-auto text-left">
+                                <h5>Delivering happiness for Pets</h5>
+                                <p>We help your Projects</p>
+
+                                <a class="btn btn-white mt-sm-5 mt-4 mr-2" href="#"> Read More</a>
+                                <a class="btn btn-style mt-sm-5 mt-4" href="#"> Contact Us</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="about-us py-5">
+        <div class="container py-md-5 py-3">
+            <div class="about-us-mid align-item-center">
+                <div class="about-us-content">
+                    <h6>ABOUT US</h6>
+                    <h3 class="h-title">We Love Your Pets Like They Are Our Own</h3>
+                    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio
+                        voluptatem tenetur
+                        consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                        Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis.</p>
+                    <a href="#read" class="read">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features py-5">
+        <div class="container py-lg-5 py-md-4">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="features-item ">
+                        <i class="fa-solid fa-snowflake"></i>
+                        <h4 class="h-title">
+                            <a href="#"> Dog Walking</a>
+                        </h4>
+                        <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor
+                            sit amet Ut blandit eu leo.</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 ">
+                    <div class="features-item ">
+                        <i class="fa-solid fa-utensils"></i>
+                        <h4 class="h-title">
+                            <a href="#"> Healthy Meals</a>
+                        </h4>
+                        <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor
+                            sit amet Ut blandit eu leo.</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="features-item ">
+                        <i class="fa-solid fa-hands"></i>
+                        <h4 class="h-title">
+                            <a href="#"> Pet Sitting</a>
+                        </h4>
+                        <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor
+                            sit amet Ut blandit eu leo.</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="features-item">
+                        <i class="fa-solid fa-sitemap"></i>
+                        <h4 class="h-title">
+                            <a href="#"> Dog Activities</a>
+                        </h4>
+                        <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor
+                            sit amet Ut blandit eu leo.</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="features-item ">
+                        <i class="fa-solid fa-shower"></i>
+                        <h4 class="h-title">
+                            <a href="#">Pet Daycare</a>
+                        </h4>
+                        <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor
+                            sit amet Ut blandit eu leo.</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="features-item">
+                        <i class="fa-solid fa-user-doctor"></i>
+                        <h4 class="h-title">
+                            <a href="#"> Pet Grooming</a>
+                        </h4>
+                        <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor
+                            sit amet Ut blandit eu leo.</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="choose">
+        <div class="choose-content py-5">
+            <div class="container py-md-5 py-3">
+                <div class="row">
+                    <div class="choose-img col-lg-6 pl-lg-5 mb-lg-5 mb-5">
+                        <img src="./img/ab.jpg" class="img-curve img-fluid" alt="">
+                    </div>
+                    <div class="choose-text col-lg-6">
+                        <h6>WHY CHOOSE US</h6>
+                        <h3 class="h-title">What We Offer For You</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.Lorem ipsum dolor sit
+                            amet, consectetur adipisicingelit,</p>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Certified Groomer
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                10 Years of Experience
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Pet Lover
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Customer Supports
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Veterinary Help
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="number py-5">
+        <div class="container py-lg-0 py-3">
+            <div class="row pb-lg-3">
+                <div class="col-lg-3 col-6 number-item">
+                    <p class="counter">730</p>
+                    <h4>Happy Clients</h4>
+                </div>
+                <div class="col-lg-3 col-6 number-item">
+                    <p class="counter">80</p>
+                    <h4>Professional</h4>
+                </div>
+                <div class="col-lg-3 col-6 number-item">
+                    <p class="counter">812</p>
+                    <h4>Adopted Pets</h4>
+                </div>
+                <div class="col-lg-3 col-6 number-item">
+                    <p class="counter">90</p>
+                    <h4>Awards</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- waypoint -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+        crossorigin="anonymous">
+        </script>
+    <script src="./js/jquery.countup.min.js"></script>
+    <script>
+        $('.counter').countUp();
+
+    </script>
+    <script src="./js/theme.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
