@@ -133,3 +133,39 @@ header .theme .gg-moon {
 
 
 /* end video about */
+
+
+/* Clients */
+
+.dark #clients {
+    background-color: #222222;
+}
+
+.dark #clients .testimonial {
+    background-color: #151515;
+}
+
+.dark #clients .testimonial h3 {
+    color: #ddd;
+}
+
+.dark #clients .item p {
+    color: #afafaf;
+}
+
+.dark .w3l-clients .indentity {
+    color: #777;
+}
+
+
+/* End Clients */
+
+
+/* Bottom */
+
+.dark .bottom {
+    background-color: #151515;
+}
+
+
+/* End Bottom */
